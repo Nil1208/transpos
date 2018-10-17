@@ -14,3 +14,4 @@ You can use simple `Makefile` to build project with gcc.
  - Read message from stdin or specified file
  - Write message to specified file
  - Add frequency analyzer
+ - Try to solve problem with plaintext/key stored in memory after exit
