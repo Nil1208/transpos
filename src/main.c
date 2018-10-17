@@ -41,6 +41,7 @@ size_t read_key(size_t *key) {
         scanf("%zd", &key_len);
 	if (key_len > MAX_LEN) {
 		printf("Извините, но такая длиная ключа не поддерживается!\n");
+		return 0;
 	} else {
 		for (size_t i = 0; i < key_len; ++i) {
 			printf("Введите %zd элемент ключа: ", i);
